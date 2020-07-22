@@ -1,0 +1,15 @@
+<server class="org.jpos.q2.iso.QServer" logger="Q2" name="ISOServer">
+    <attr name="port" type="java.lang.Integer">9620</attr>
+
+    <channel class="org.jpos.iso.channel.NACChannel" logger="Q2"
+             packager="com.gatewayExample.gatewaytraining.packager.TransportPackager" header="6000000000">
+        <property name="packager-logger" value="Q2" />
+        <property name="packager-realm" value="X-Switch-debug" />
+    </channel>
+
+    <request-listener class="com.gatewayExample.gatewaytraining.RequestHandlers" logger="Q2">
+        <property name="space" value="transient:default"/>
+        <property name="queue" value="TXNQueue"/>
+        <property name="timeout" value="10000"/>
+    </request-listener>
+</server>

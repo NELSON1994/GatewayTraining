@@ -1,0 +1,42 @@
+<txnmgr name="SimpleTransactionManager" logger="Q2" class="org.jpos.transaction.TransactionManager">
+    <property name="space" value="transient:default" />
+    <property name="queue" value="TXNQueue" />
+
+    <!-- A persistent space is a nice way to do transaction recovery with snapshots being taken
+    after each change in the context. If you use a external database as your primary and only way
+    of persistence; a persistent space in transaction manager might not always be suitable,
+    though it is a quick and fast way to ensure your SAF's always do their job as a HDD write is
+    done (which protects your from power failures). As always; HDD writes are slow and will thus
+    have the implied performance impacts.
+    The context persistent part is a serializable map or not(default). This implies the normal
+    rules of serialization; you can't serialize something that is not serializable. If you are not
+    planning on serializing parts, then yes, the default will suffice. If you do plan on serializing
+    to database/file etc, then I would recommend you choose the persistent parameter for putting
+    entries into your context. -->
+    <!-- <property name="persistent-space" value="tspace:TransactionSpace" /> -->
+    <property name="persistent-space" value="je:txnmgr" />
+    <property name="input-space" value="tspace:txnmgr" />
+    <property name="debug-context"            value="true" />
+
+    <property name="sessions" value="24" />
+    <property name="max-sessions" value="4096"/>
+    <property name="debug" value="true" />
+    <property name="retry-interval"   value="250" />
+    <property name="pause-timeout"   value="2000" />
+
+    <participant class="com.gatewayExample.gatewaytraining.gl.selector.Selector" name="Selector" logger="Q2">
+        <property name="0200" value="Transaction" />
+        <property name="0800" value="Network" />
+
+    </participant>
+
+    <participant class="com.gatewayExample.gatewaytraining.gl.participant.SenderResponseParticipant" logger="Q2"/>
+
+    <group name="Transaction">
+        <participant class="com.gatewayExample.gatewaytraining.gl.participant.TransactionResponseParticipant" logger="Q2" />
+    </group>
+    <group name="Network">
+        <participant class="com.gatewayExample.gatewaytraining.gl.participant.NetworkParticipant" logger="Q2" />
+    </group>
+
+</txnmgr>

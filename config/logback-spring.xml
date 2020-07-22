@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<configuration>
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS}  - %msg %n
+            </Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter> 
+    </appender> 
+    <appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>logs/daily/x-switch.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <FileNamePattern>logs/daily/x-switch_day.%d{yyyy-MM-dd}.log</FileNamePattern>
+ 
+            <!-- keep 30 days' worth of history -->
+            <!-- <maxHistory>30</maxHistory>			 -->
+        </rollingPolicy>
+ 
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern>
+        </encoder> 
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter> 		    
+    </appender>
+    <appender name="errorRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>logs/error/x-switch.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <FileNamePattern>logs/error/x-switch_err.%d{yyyy-MM-dd}.log</FileNamePattern>
+ 
+            <!-- keep 60 days' worth of history -->
+            <maxHistory>60</maxHistory>			
+        </rollingPolicy>
+ 
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter> 	    
+    </appender>
+    <appender name="minuteRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover every minute -->
+            <FileNamePattern>logs/minute/x-switch_min.%d{yyyy-MM-dd_HH-mm}.log</FileNamePattern>
+ 
+            <!-- keep 30 minutes' worth of history -->
+            <maxHistory>60</maxHistory>			
+        </rollingPolicy>
+ 
+        <encoder>
+            <Pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</Pattern>
+        </encoder> 	 
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter> 	   
+    </appender>  	
+ 
+    <logger name="org.codingpedia" additivity="false">
+        <level value="INFO" />
+        <appender-ref ref="dailyRollingFileAppender"/>
+        <appender-ref ref="minuteRollingFileAppender"/>
+        <appender-ref ref="consoleAppender" />
+    </logger>
+ 
+    <root>
+        <level value="INFO" />
+        <appender-ref ref="consoleAppender" />
+        <appender-ref ref="minuteRollingFileAppender" />
+        <appender-ref ref="dailyRollingFileAppender"/>
+        <appender-ref ref="errorRollingFileAppender"/>
+    </root>
+</configuration>
