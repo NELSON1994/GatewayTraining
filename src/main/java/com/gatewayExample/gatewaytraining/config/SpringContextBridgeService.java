@@ -1,6 +1,5 @@
 package com.gatewayExample.gatewaytraining.config;
 
-import com.gatewayExample.gatewaytraining.Repositories.AllTransactionRepository;
 import com.gatewayExample.gatewaytraining.Services.AllTransactionServiceTemplate;
 import com.gatewayExample.gatewaytraining.Services.AllTransactionsService;
 import org.springframework.beans.BeansException;
@@ -17,17 +16,11 @@ public class SpringContextBridgeService implements SpringContextBridgeTemplate, 
     @Autowired
     private AllTransactionServiceTemplate allTransactionServiceTemplate;
 
-    @Autowired
-    AllTransactionRepository transactionRepository;
-
     @Override
     public AllTransactionServiceTemplate getAllTransactionServiceTemplate(){
     return allTransactionServiceTemplate;
 }
-    @Override
-    public AllTransactionRepository getAllTransactionsRepo() {
-        return transactionRepository;
-    }
+
 
     @Override
     public void setApplicationContext(ApplicationContext context) throws BeansException {

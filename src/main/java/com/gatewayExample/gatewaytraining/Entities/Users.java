@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Data
-//@Entity
+//Entity
 @SequenceGenerator(name="seq1" , initialValue = 1 , allocationSize = 50)
 public class Users {
     @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "seq1")
