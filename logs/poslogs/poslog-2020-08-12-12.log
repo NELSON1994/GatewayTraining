@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="rotate-log-listener" at="Wed Aug 12 01:23:07 EAT 2020">
+   maxage feature is disabled.
+</log>
+<log realm="Q2.system" at="2020-08-12T01:36:26.537" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T02:36:28.621" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-12T03:34:26.983">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 1.8.0_221 (Oracle Corporation) AES-secure
+     process name: 20304@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/127.0.0.1
+              cwd: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining
+       free space: 170 GiB
+          version: 2.1.2 (6f9379a)
+         instance: fe7e1e2f-38ba-49f2-8586-f18fc232a71a
+           uptime: 11:23:10.191 (-1.000000)
+       processors: 8
+           drift : 4987617
+    memory(t/u/f): 426/69/357
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597192466 2020-08-12T00:34:26.984Z
+     thread count: 68
+     peak threads: 74
+     user threads: 62
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[HikariPool-1 housekeeper,5,main]
+            Thread[http-nio-6000-BlockPoller,5,main]
+            Thread[http-nio-6000-exec-1,5,main]
+            Thread[http-nio-6000-exec-2,5,main]
+            Thread[http-nio-6000-exec-3,5,main]
+            Thread[http-nio-6000-exec-4,5,main]
+            Thread[http-nio-6000-exec-5,5,main]
+            Thread[http-nio-6000-exec-6,5,main]
+            Thread[http-nio-6000-exec-7,5,main]
+            Thread[http-nio-6000-exec-8,5,main]
+            Thread[http-nio-6000-exec-9,5,main]
+            Thread[http-nio-6000-exec-10,5,main]
+            Thread[http-nio-6000-ClientPoller,5,main]
+            Thread[http-nio-6000-Acceptor,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-fe7e1e2f-38ba-49f2-8586-f18fc232a71a,5,main]
+            Thread[Thread-176,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Timer-1,5,main]
+            Thread[Thread-183,5,main]
+            Thread[FileDeletionDetector,5,main]
+            Thread[LogFlusher,5,main]
+            Thread[DataCorruptionVerifier,5,main]
+            Thread[INCompressor,5,main]
+            Thread[Cleaner-1,5,main]
+            Thread[Checkpointer,5,main]
+            Thread[StatCapture,5,main]
+            Thread[Thread-187,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-2,5,main]
+            Thread[SimpleTransactionManager-0:idle,5,main]
+            Thread[SimpleTransactionManager-1:idle,5,main]
+            Thread[SimpleTransactionManager-3:idle,5,main]
+            Thread[SimpleTransactionManager-2:idle,5,main]
+            Thread[SimpleTransactionManager-4:idle,5,main]
+            Thread[SimpleTransactionManager-5:idle,5,main]
+            Thread[SimpleTransactionManager-6:idle,5,main]
+            Thread[SimpleTransactionManager-7:idle,5,main]
+            Thread[SimpleTransactionManager-9:idle,5,main]
+            Thread[SimpleTransactionManager-8:idle,5,main]
+            Thread[SimpleTransactionManager-10:idle,5,main]
+            Thread[SimpleTransactionManager-12:idle,5,main]
+            Thread[SimpleTransactionManager-11:idle,5,main]
+            Thread[SimpleTransactionManager-14:idle,5,main]
+            Thread[SimpleTransactionManager-13:idle,5,main]
+            Thread[SimpleTransactionManager-16:idle,5,main]
+            Thread[SimpleTransactionManager-15:idle,5,main]
+            Thread[SimpleTransactionManager-17:idle,5,main]
+            Thread[SimpleTransactionManager-20:idle,5,main]
+            Thread[SimpleTransactionManager-18:idle,5,main]
+            Thread[SimpleTransactionManager-19:idle,5,main]
+            Thread[SimpleTransactionManager-21:idle,5,main]
+            Thread[SimpleTransactionManager-22:idle,5,main]
+            Thread[SimpleTransactionManager-23:idle,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[SimpleTransactionManager-input-queue-monitor,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.1781469028</key>
+         key-count: 1
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      je:txnmgr: org.jpos.space.JESpace
+        <key size='1'>$HEAD</key>
+        <key size='1'>$TAIL</key>
+        <keycount>2</keycount>
+      SimpleTransactionManager: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=24/4096, tps=0, peak=0, avg=0.00
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T03:36:30.697" lifespan="2ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T04:36:32.834" lifespan="2ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T05:36:34.931" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T06:36:37.019" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T08:43:39.486" lifespan="5ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2020-08-12T08:59:37.409">
+  <info>
+    Q2 started, deployDir=C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T08:59:37.878" lifespan="460ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T08:59:37.884" lifespan="4ms">
+  <info>
+    deploy: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos\05_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T08:59:38.269" lifespan="385ms">
+  <info>
+    deploy: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos\30_txn_mgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T08:59:38.272" lifespan="3ms">
+  <info>
+    deploy: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos\99_sysmon.xml
+  </info>
+</log>
+<log realm="ISOServer.server" at="2020-08-12T08:59:38.286" lifespan="1ms">
+  <iso-server>
+    listening on port 9620
+  </iso-server>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.461" lifespan="1ms">
+  <info>
+    start Thread[Thread-189,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.460">
+  <info>
+    start Thread[Thread-188,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.460">
+  <info>
+    start Thread[Thread-185,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.461">
+  <info>
+    start Thread[Thread-191,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.461" lifespan="1ms">
+  <info>
+    start Thread[Thread-186,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.461" lifespan="1ms">
+  <info>
+    start Thread[Thread-187,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.462">
+  <info>
+    start Thread[Thread-198,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.462" lifespan="1ms">
+  <info>
+    start Thread[Thread-190,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.462" lifespan="1ms">
+  <info>
+    start Thread[Thread-192,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.464" lifespan="3ms">
+  <info>
+    start Thread[Thread-196,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.464">
+  <info>
+    start Thread[Thread-203,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.463" lifespan="1ms">
+  <info>
+    start Thread[Thread-197,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.463" lifespan="1ms">
+  <info>
+    start Thread[Thread-199,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.465">
+  <info>
+    start Thread[Thread-207,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.465" lifespan="4ms">
+  <info>
+    start Thread[Thread-193,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.465" lifespan="4ms">
+  <info>
+    start Thread[Thread-194,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.465" lifespan="3ms">
+  <info>
+    start Thread[Thread-195,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.468" lifespan="4ms">
+  <info>
+    start Thread[Thread-202,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.468" lifespan="4ms">
+  <info>
+    start Thread[Thread-204,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.467" lifespan="2ms">
+  <info>
+    start Thread[Thread-206,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.467" lifespan="2ms">
+  <info>
+    start Thread[Thread-205,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.466" lifespan="1ms">
+  <info>
+    start Thread[Thread-208,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.468" lifespan="5ms">
+  <info>
+    start Thread[Thread-200,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T08:59:38.468" lifespan="5ms">
+  <info>
+    start Thread[Thread-201,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-12T08:59:38.468">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-12T08:59:38.469">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 1.8.0_221 (Oracle Corporation) AES-secure
+     process name: 3976@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/192.168.254.81
+              cwd: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining
+       free space: 170 GiB
+          version: 2.1.2 (6f9379a)
+         instance: bdef77aa-eb7d-4e65-bae9-aa13d5e6527d
+           uptime: 00:00:01.178 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 385/93/291
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597211978 2020-08-12T05:59:38.469Z
+     thread count: 75
+     peak threads: 75
+     user threads: 66
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[task-1,5,main]
+            Thread[PostgreSQL-JDBC-SharedTimer-1,5,main]
+            Thread[HikariPool-1 housekeeper,5,main]
+            Thread[http-nio-6000-BlockPoller,5,main]
+            Thread[http-nio-6000-exec-1,5,main]
+            Thread[http-nio-6000-exec-2,5,main]
+            Thread[http-nio-6000-exec-3,5,main]
+            Thread[http-nio-6000-exec-4,5,main]
+            Thread[http-nio-6000-exec-5,5,main]
+            Thread[http-nio-6000-exec-6,5,main]
+            Thread[http-nio-6000-exec-7,5,main]
+            Thread[http-nio-6000-exec-8,5,main]
+            Thread[http-nio-6000-exec-9,5,main]
+            Thread[http-nio-6000-exec-10,5,main]
+            Thread[http-nio-6000-ClientPoller,5,main]
+            Thread[http-nio-6000-Acceptor,5,main]
+            Thread[HikariPool-1 connection adder,5,main]
+            Thread[task-2,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-bdef77aa-eb7d-4e65-bae9-aa13d5e6527d,5,main]
+            Thread[Thread-174,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Timer-1,5,main]
+            Thread[Thread-179,5,main]
+            Thread[FileDeletionDetector,5,main]
+            Thread[LogFlusher,5,main]
+            Thread[DataCorruptionVerifier,5,main]
+            Thread[INCompressor,5,main]
+            Thread[Cleaner-1,5,main]
+            Thread[Checkpointer,5,main]
+            Thread[StatCapture,5,main]
+            Thread[Thread-183,5,main]
+            Thread[Timer-2,5,main]
+            Thread[SimpleTransactionManager-1:idle,5,main]
+            Thread[SimpleTransactionManager-0:idle,5,main]
+            Thread[SimpleTransactionManager-2:idle,5,main]
+            Thread[SimpleTransactionManager-4:idle,5,main]
+            Thread[SimpleTransactionManager-3:idle,5,main]
+            Thread[SimpleTransactionManager-5:idle,5,main]
+            Thread[SimpleTransactionManager-7:idle,5,main]
+            Thread[SimpleTransactionManager-6:idle,5,main]
+            Thread[SimpleTransactionManager-8:idle,5,main]
+            Thread[SimpleTransactionManager-9:idle,5,main]
+            Thread[SimpleTransactionManager-11:idle,5,main]
+            Thread[SimpleTransactionManager-10:idle,5,main]
+            Thread[SimpleTransactionManager-12:idle,5,main]
+            Thread[SimpleTransactionManager-14:idle,5,main]
+            Thread[SimpleTransactionManager-13:idle,5,main]
+            Thread[SimpleTransactionManager-15:idle,5,main]
+            Thread[SimpleTransactionManager-16:idle,5,main]
+            Thread[SimpleTransactionManager-18:idle,5,main]
+            Thread[SimpleTransactionManager-17:idle,5,main]
+            Thread[SimpleTransactionManager-19:idle,5,main]
+            Thread[SimpleTransactionManager-21:idle,5,main]
+            Thread[SimpleTransactionManager-20:idle,5,main]
+            Thread[SimpleTransactionManager-23:idle,5,main]
+            Thread[SimpleTransactionManager-22:idle,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[SimpleTransactionManager-input-queue-monitor,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+            Thread[RMI TCP Connection(2)-192.168.254.81,5,RMI Runtime]
+            Thread[RMI TCP Connection(3)-192.168.254.81,5,RMI Runtime]
+            Thread[RMI TCP Connection(4)-192.168.254.81,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.147358556</key>
+         key-count: 1
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      je:txnmgr: org.jpos.space.JESpace
+        <key size='1'>$HEAD</key>
+        <key size='1'>$TAIL</key>
+        <keycount>2</keycount>
+      SimpleTransactionManager: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=24/4096, tps=0, peak=0, avg=0.00
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T09:59:38.318" lifespan="9ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T10:59:38.401" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T11:59:39.967" lifespan="9ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2020-08-12T12:34:39.945">
+  <info>
+    Q2 started, deployDir=C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T12:34:40.408" lifespan="458ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T12:34:40.414" lifespan="4ms">
+  <info>
+    deploy: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos\05_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T12:34:40.798" lifespan="384ms">
+  <info>
+    deploy: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos\30_txn_mgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T12:34:40.801" lifespan="3ms">
+  <info>
+    deploy: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining\config\jpos\99_sysmon.xml
+  </info>
+</log>
+<log realm="ISOServer.server" at="2020-08-12T12:34:40.815" lifespan="1ms">
+  <iso-server>
+    listening on port 9620
+  </iso-server>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.609">
+  <info>
+    start Thread[Thread-189,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.609">
+  <info>
+    start Thread[Thread-188,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.609">
+  <info>
+    start Thread[Thread-186,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.610" lifespan="1ms">
+  <info>
+    start Thread[Thread-192,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.610" lifespan="1ms">
+  <info>
+    start Thread[Thread-187,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.611" lifespan="2ms">
+  <info>
+    start Thread[Thread-191,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.612">
+  <info>
+    start Thread[Thread-206,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.610" lifespan="1ms">
+  <info>
+    start Thread[Thread-190,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.613" lifespan="3ms">
+  <info>
+    start Thread[Thread-195,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.613" lifespan="2ms">
+  <info>
+    start Thread[Thread-199,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.611">
+  <info>
+    start Thread[Thread-201,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.614" lifespan="4ms">
+  <info>
+    start Thread[Thread-197,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.613" lifespan="3ms">
+  <info>
+    start Thread[Thread-196,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.615" lifespan="5ms">
+  <info>
+    start Thread[Thread-193,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.615" lifespan="5ms">
+  <info>
+    start Thread[Thread-194,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.614" lifespan="4ms">
+  <info>
+    start Thread[Thread-198,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.616" lifespan="4ms">
+  <info>
+    start Thread[Thread-204,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.616" lifespan="3ms">
+  <info>
+    start Thread[Thread-208,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.616" lifespan="3ms">
+  <info>
+    start Thread[Thread-209,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-12T12:34:41.617">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.616" lifespan="3ms">
+  <info>
+    start Thread[Thread-207,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.617" lifespan="6ms">
+  <info>
+    start Thread[Thread-200,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.617" lifespan="5ms">
+  <info>
+    start Thread[Thread-205,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.617" lifespan="5ms">
+  <info>
+    start Thread[Thread-203,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-12T12:34:41.617" lifespan="5ms">
+  <info>
+    start Thread[Thread-202,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-12T12:34:41.617">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 1.8.0_221 (Oracle Corporation) AES-secure
+     process name: 29384@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/192.168.137.1
+              cwd: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining
+       free space: 169.7 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 46f468c2-7a61-44d7-931f-52032b8f9f8e
+           uptime: 00:00:01.733 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 384/98/285
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597224881 2020-08-12T09:34:41.618Z
+     thread count: 74
+     peak threads: 74
+     user threads: 66
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[task-1,5,main]
+            Thread[PostgreSQL-JDBC-SharedTimer-1,5,main]
+            Thread[http-nio-6000-BlockPoller,5,main]
+            Thread[http-nio-6000-exec-1,5,main]
+            Thread[http-nio-6000-exec-2,5,main]
+            Thread[http-nio-6000-exec-3,5,main]
+            Thread[http-nio-6000-exec-4,5,main]
+            Thread[http-nio-6000-exec-5,5,main]
+            Thread[http-nio-6000-exec-6,5,main]
+            Thread[http-nio-6000-exec-7,5,main]
+            Thread[http-nio-6000-exec-8,5,main]
+            Thread[http-nio-6000-exec-9,5,main]
+            Thread[http-nio-6000-exec-10,5,main]
+            Thread[http-nio-6000-ClientPoller,5,main]
+            Thread[HikariPool-1 housekeeper,5,main]
+            Thread[http-nio-6000-Acceptor,5,main]
+            Thread[HikariPool-1 connection adder,5,main]
+            Thread[task-2,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-46f468c2-7a61-44d7-931f-52032b8f9f8e,5,main]
+            Thread[Thread-173,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Timer-1,5,main]
+            Thread[Thread-180,5,main]
+            Thread[FileDeletionDetector,5,main]
+            Thread[LogFlusher,5,main]
+            Thread[DataCorruptionVerifier,5,main]
+            Thread[INCompressor,5,main]
+            Thread[Cleaner-1,5,main]
+            Thread[Checkpointer,5,main]
+            Thread[StatCapture,5,main]
+            Thread[Thread-184,5,main]
+            Thread[Timer-2,5,main]
+            Thread[SimpleTransactionManager-1:idle,5,main]
+            Thread[SimpleTransactionManager-2:idle,5,main]
+            Thread[SimpleTransactionManager-0:idle,5,main]
+            Thread[SimpleTransactionManager-6:idle,5,main]
+            Thread[SimpleTransactionManager-4:idle,5,main]
+            Thread[SimpleTransactionManager-5:idle,5,main]
+            Thread[SimpleTransactionManager-3:idle,5,main]
+            Thread[SimpleTransactionManager-7:idle,5,main]
+            Thread[SimpleTransactionManager-8:idle,5,main]
+            Thread[SimpleTransactionManager-12:idle,5,main]
+            Thread[SimpleTransactionManager-11:idle,5,main]
+            Thread[SimpleTransactionManager-10:idle,5,main]
+            Thread[SimpleTransactionManager-9:idle,5,main]
+            Thread[SimpleTransactionManager-13:idle,5,main]
+            Thread[SimpleTransactionManager-15:idle,5,main]
+            Thread[SimpleTransactionManager-14:idle,5,main]
+            Thread[SimpleTransactionManager-16:idle,5,main]
+            Thread[SimpleTransactionManager-17:idle,5,main]
+            Thread[SimpleTransactionManager-19:idle,5,main]
+            Thread[SimpleTransactionManager-18:idle,5,main]
+            Thread[SimpleTransactionManager-20:idle,5,main]
+            Thread[SimpleTransactionManager-23:idle,5,main]
+            Thread[SimpleTransactionManager-21:idle,5,main]
+            Thread[SimpleTransactionManager-22:idle,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[SimpleTransactionManager-input-queue-monitor,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+            Thread[RMI TCP Connection(1)-192.168.137.1,5,RMI Runtime]
+            Thread[RMI TCP Connection(2)-192.168.137.1,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.194207090</key>
+         key-count: 1
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      je:txnmgr: org.jpos.space.JESpace
+        <key size='1'>$HEAD</key>
+        <key size='1'>$TAIL</key>
+        <keycount>2</keycount>
+      SimpleTransactionManager: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=24/4096, tps=0, peak=0, avg=0.00
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-12T13:34:40.267" lifespan="4ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T14:34:42.518" lifespan="19ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T15:34:44.548" lifespan="12ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T17:41:06.454" lifespan="3833ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T18:41:03.252" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T19:41:05.738" lifespan="4ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T20:41:08.208" lifespan="30ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T21:41:10.364" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T22:41:12.409" lifespan="3ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-12T23:41:14.518" lifespan="17ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-13T00:04:42.562">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 1.8.0_221 (Oracle Corporation) AES-secure
+     process name: 29384@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/127.0.0.1
+              cwd: C:\Users\user\Downloads\gatewaytraining (1)\gatewaytraining
+       free space: 169.8 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 46f468c2-7a61-44d7-931f-52032b8f9f8e
+           uptime: 11:30:03.596 (-1.000000)
+       processors: 8
+           drift : 5400938
+    memory(t/u/f): 432/249/182
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597266284 2020-08-12T21:04:42.562Z
+     thread count: 68
+     peak threads: 74
+     user threads: 62
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[http-nio-6000-BlockPoller,5,main]
+            Thread[http-nio-6000-exec-1,5,main]
+            Thread[http-nio-6000-exec-2,5,main]
+            Thread[http-nio-6000-exec-3,5,main]
+            Thread[http-nio-6000-exec-4,5,main]
+            Thread[http-nio-6000-exec-5,5,main]
+            Thread[http-nio-6000-exec-6,5,main]
+            Thread[http-nio-6000-exec-7,5,main]
+            Thread[http-nio-6000-exec-8,5,main]
+            Thread[http-nio-6000-exec-9,5,main]
+            Thread[http-nio-6000-exec-10,5,main]
+            Thread[http-nio-6000-ClientPoller,5,main]
+            Thread[HikariPool-1 housekeeper,5,main]
+            Thread[http-nio-6000-Acceptor,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-46f468c2-7a61-44d7-931f-52032b8f9f8e,5,main]
+            Thread[Thread-173,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Timer-1,5,main]
+            Thread[Thread-180,5,main]
+            Thread[FileDeletionDetector,5,main]
+            Thread[LogFlusher,5,main]
+            Thread[DataCorruptionVerifier,5,main]
+            Thread[INCompressor,5,main]
+            Thread[Cleaner-1,5,main]
+            Thread[Checkpointer,5,main]
+            Thread[StatCapture,5,main]
+            Thread[Thread-184,5,main]
+            Thread[Timer-2,5,main]
+            Thread[SimpleTransactionManager-1:idle,5,main]
+            Thread[SimpleTransactionManager-2:idle,5,main]
+            Thread[SimpleTransactionManager-0:idle,5,main]
+            Thread[SimpleTransactionManager-6:idle,5,main]
+            Thread[SimpleTransactionManager-4:idle,5,main]
+            Thread[SimpleTransactionManager-5:idle,5,main]
+            Thread[SimpleTransactionManager-3:idle,5,main]
+            Thread[SimpleTransactionManager-7:idle,5,main]
+            Thread[SimpleTransactionManager-8:idle,5,main]
+            Thread[SimpleTransactionManager-12:idle,5,main]
+            Thread[SimpleTransactionManager-11:idle,5,main]
+            Thread[SimpleTransactionManager-10:idle,5,main]
+            Thread[SimpleTransactionManager-9:idle,5,main]
+            Thread[SimpleTransactionManager-13:idle,5,main]
+            Thread[SimpleTransactionManager-15:idle,5,main]
+            Thread[SimpleTransactionManager-14:idle,5,main]
+            Thread[SimpleTransactionManager-16:idle,5,main]
+            Thread[SimpleTransactionManager-17:idle,5,main]
+            Thread[SimpleTransactionManager-19:idle,5,main]
+            Thread[SimpleTransactionManager-18:idle,5,main]
+            Thread[SimpleTransactionManager-20:idle,5,main]
+            Thread[SimpleTransactionManager-23:idle,5,main]
+            Thread[SimpleTransactionManager-21:idle,5,main]
+            Thread[SimpleTransactionManager-22:idle,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[SimpleTransactionManager-input-queue-monitor,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.194207090</key>
+         key-count: 1
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      je:txnmgr: org.jpos.space.JESpace
+        <key size='1'>$HEAD</key>
+        <key size='1'>$TAIL</key>
+        <keycount>2</keycount>
+      SimpleTransactionManager: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=24/4096, tps=0, peak=0, avg=0.00
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-13T00:41:16.615" lifespan="2ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="rotate-log-listener" at="Thu Aug 13 01:30:00 EAT 2020">
+   time exceeded - log rotated
+</log>
+</logger>

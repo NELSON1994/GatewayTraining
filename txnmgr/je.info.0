@@ -75,3 +75,11 @@
 2020-08-09 21:00:04.106 UTC INFO [txnmgr] End verify of data files
 2020-08-09 21:00:04.106 UTC INFO [txnmgr] Start verify all databases
 2020-08-09 21:00:04.116 UTC INFO [txnmgr] End verify all databases
+2020-08-12 14:41:05.895 UTC WARNING [txnmgr] FSync time of 5403121 ms exceeds limit (5000 ms)
+2020-08-14 02:24:27.660 UTC WARNING [txnmgr] FSync time of 14049 ms exceeds limit (5000 ms)
+2020-08-14 10:18:27.241 UTC WARNING [txnmgr] FSync time of 123033 ms exceeds limit (5000 ms)
+2020-08-16 21:00:00.622 UTC INFO [txnmgr] Start verify of data files
+2020-08-16 21:00:05.325 UTC INFO [txnmgr] End verify of data files
+2020-08-16 21:00:05.325 UTC INFO [txnmgr] Start verify all databases
+2020-08-16 21:00:08.444 UTC INFO [txnmgr] End verify all databases
+2020-08-18 05:49:37.662 UTC WARNING [txnmgr] FSync time of 5793668 ms exceeds limit (5000 ms)

@@ -27,7 +27,7 @@ public class IsoTests {
             // ISOMsg msg=lastTransaction();//========= last Transaction  from Rokel
            // ISOMsg msg=balanceInquiry();//============= balance Inquiry  from Rokel
             //ISOMsg msg=getAccountDatails();//=============get ACCOUNT DETAILS from Rokel
-            //ISOMsg msg=transferTransaction();//============= TRANSFER TRANSACTION
+           // ISOMsg msg=transferTransaction();//============= TRANSFER TRANSACTION
             ISOMsg msg=miniStatement();//============= MiniStatement TRANSACTION
            // ISOMsg msg=fetchPersonnels();//========fetch list of contact personnels using REST TEMPLATE
            // ISOMsg msg=fetchPersonnelsUsingHttpClient();//=======fetch list of contact personnels using HTTP CLIENT
